@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: mediumseagreen;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Animals</h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.worldwildlife.org/species/tiger">Tigers</a>
+  <a href="https://www.britannica.com/animal/shark">Sharks</a>
+  <a href="https://www.britannica.com/animal/giraffe">Giraffes</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Tigers</h2>
+    <p>After a century of decline, overall wild tiger numbers are starting to tick upward. Based on the best available information, tiger populations are stable or increasing in India, Nepal, Bhutan, Russia and China. About 4,500 tigers remain in the wild, but much more work is needed to protect this species if we are to secure its future in the wild. In some areas, including much of Southeast Asia, tigers are still in crisis and declining in number. Tigers can live in a range of environments, including the Siberian taiga, swamps, grasslands, and rainforests. They can be found anywhere from the Russian Far East to parts of North Korea, China, India, and Southwest Asia to the Indonesian island of Sumatra. The average lifespan of a tiger in the wild is about 11 years. In captivity their lifespan is about 20 to 25 years. Most classifications separate the tiger species into six subspecies. These include the Siberian tiger, the Bengal tiger, the Sumatran tiger, the Indo-Chinese tiger, the South China tiger, and the Malayan tiger. Some classifications merge these subspecies, and others suggest that two distinct tiger species exist. The tiger has adapted to a great variety of environments, from the Siberian taiga, where nights can be as cold as −40 °C (−40 °F), to the mangrove swamps of the Sundarbans, where the temperatures reach more than 40 °C (104 °F). Tigers haunt the ruins of buildings such as courts and temples and are at home in habitats ranging from dry grassland to rainforest. Grasslands, mixed grassland-forests, and deciduous rather than densely canopied forests support maximum population densities, as these habitats maintain the highest number of prey species. Having evolved in the temperate and subtropical forests of eastern Asia, the tiger is less tolerant of heat than other large cats, which may explain why it is an adept swimmer that appears to enjoy bathing. Under stress it may climb trees. </p>
+  </div>
+  
+  <div class="column">
+    <h2>Sharks</h2>
+    <p>With fossil records dating back 400 million years, sharks have outlived the dinosaurs and many other forms of life currently on earth. There are more than 1,000 species of sharks and rays, with new species discovered every year. There are more than 500 species of shark, and just three (the great white shark, bull shark and tiger shark) are responsible for most reported attacks on humans. Such attacks are very rare – in fact, for every human killed by a shark, two million sharks are killed by humans, with a quarter of the world’s shark species now at risk of extinction. In fact, you’re 75 times more likely to be killed by lightning than by a shark. Sharks get through up to 30,000 teeth in a lifetime. They never stop generating new teeth, and their gums work like a conveyor belt: teeth grow from the back and move forward when needed, so if a tooth breaks in the front row, there’s always a row behind to replace it. And they get through a lot. There are more than 400 living species of sharks, taxonomically grouped into 14–30 families, according to different authorities. Several larger species can be dangerous to humans. Numerous sharks are fished commercially. However, overfishing in the late 20th and early 21st centuries substantially reduced the populations of some shark species. Shark species are nondescript in colour, varying from gray to cream, brown, yellow, slate, or blue and often patterned with spots, bands, marblings, or protuberances. The oddest-looking sharks are the hammerheads (Sphyrna), whose heads resemble double-headed hammers and have an eye on each stalk, and the wobbegongs (family Orectolobidae), whose skin flaps and protective coloration closely resemble the seafloor. The vernacular of shark names indicate colours in living species, such as the blue (Prionace glauca), the white (Carcharodon carcharias; also known as the great white shark), and the lemon (Negaprion brevirostris) shark.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Giraffes</h2>
+    <p>Giraffes are the tallest mammals on Earth. Their legs alone are taller than many humans—about 6 feet. They can run as fast as 35 miles an hour over short distances, or cruise at 10 mph over longer distances. Giraffes only need to drink once every few days. Most of their water comes from all the plants they eat. Giraffes only need 5 to 30 minutes of sleep in a 24-hour period. They often achieve that in quick naps that may last only a minute or two at a time. A giraffe’s spots are much like human fingerprints. No two individual giraffes have exactly the same pattern. The giraffe calf can stand up and walk after about an hour and within a week, it starts to sample vegetation. Most giraffes live in grasslands and open woodlands in East Africa, especially in reserves such as the Serengeti National Park and the Amboseli National Park. Some are also found in the reserves of Southern Africa. Giraffes eat new shoots and leaves, mainly from the thorny acacia tree. The tongue and the inside of the mouth are lined with tough tissue that protects against the thorns. Giraffes live in nonterritorial groups of up to 20. Home ranges are as small as 85 square km (33 square miles) in wetter areas but up to 1,500 square km (580 square miles) in dry regions. The animals are gregarious, a behaviour that apparently allows for increased vigilance against predators. They have excellent eyesight, and when one giraffe stares, for example, at a lion a kilometre away, the others look in that direction too. Giraffes live up to 26 years in the wild and slightly longer in captivity. </p>
+  </div>
+</div>
+
+</body>
+</html>
+
